@@ -10,7 +10,7 @@ env:
 build:
   pre_ci_boot:
     image_name: mrdziuban/scala-sbt-jdk
-    image_tag: scala-2.12.3-sbt-1.02
+    image_tag: scala-2.12.3-sbt-1.0.2
     pull: true
   ci:
     - sbt -mem 2048 ++$SCALA_VERSION clean test:compile
