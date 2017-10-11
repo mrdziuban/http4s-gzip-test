@@ -2,8 +2,8 @@ language: scala
 scala:
   - 2.12.3
 env:
-  - SHIPPABLE_REPO_DIR: $HOME/src
   global:
+    - SHIPPABLE_REPO_DIR=$HOME/src
     - SCALA_VERSION=2.12.3
     - JAVA_OPTS='-Xms2048M -Xmx2048M -Xss6M'
     - SBT_OPTS='-Xms2048M -Xmx2048M -Xss6M'
