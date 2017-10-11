@@ -1,7 +1,7 @@
 organization := "io.github.mrdziuban"
 name := "http4s-gzip-test"
 version := "0.0.1-SNAPSHOT"
-scalaVersion := "2.12.2"
+scalaVersion := "2.12.3"
 
 val Http4sVersion = "0.17.0-M2"
 
